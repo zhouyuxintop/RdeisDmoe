@@ -12,5 +12,6 @@ public static void main(String[] args) {
 	jedis.set("key3", "Tom");
 	System.out.println("key3:"+jedis.get("key3"));
 	
+	
 }
 }
