@@ -11,7 +11,5 @@ public static void main(String[] args) {
 	System.out.println("server id runing:"+jedis.ping());
 	jedis.set("key3", "Tom");
 	System.out.println("key3:"+jedis.get("key3"));
-	
-	
 }
 }
